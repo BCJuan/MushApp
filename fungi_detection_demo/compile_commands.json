@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/openvino/inference_engine/samples/fungi_detection_demo",
+  "command": "/usr/bin/g++     -g3 -gdwarf-2   -o CMakeFiles/fungi_detection_demo.dir/main.o -c /home/openvino/inference_engine/samples/fungi_detection_demo/main.cpp",
+  "file": "/home/openvino/inference_engine/samples/fungi_detection_demo/main.cpp"
+}
+]

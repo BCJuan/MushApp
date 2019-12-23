@@ -13,7 +13,9 @@ The OpenVino samples were copied (from /opt/intel/openvino/inference_engine) int
 cd /home/openvino/inference_engine/samples
 git clone https://github.com/BCJuan/MushApp.git (FIX this so that the final directory is /home/openvino/inference_engine/samples/fungi_detection_demo)
 
-2) Compile the samples (including the fungi_detection_demo)
+2) Download the network files from the github releases
+
+3) Compile the samples (including the fungi_detection_demo)
 ./build_samples.sh
 
 

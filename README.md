@@ -43,7 +43,8 @@ The onnx conversion can be found at `python_transfer_learning/retrain.py` as the
 
 To convert the models from ONNX, in the case of the classifier, or from `.pb` files, for the detection models, two different command line arguments sets are needed. In the case of the detection models:
 
-```<INSTALL_DIR>/deployment_tools/model_optimizer/mo_tf.py --input_model=<MODEL_FOLDER>/frozen_inference_graph.pb --tensorflow_use_custom_operations_config <INSTALL_DIR>/deployment_tools/model_optimizer/extensions/front/tf/<MODEL_SUPPORT>_support.json --tensorflow_object_detection_api_pipeline_config <MODEL_FOLDER>/pipeline.config --reverse_input_channels
+```
+<INSTALL_DIR>/deployment_tools/model_optimizer/mo_tf.py --input_model=<MODEL_FOLDER>/frozen_inference_graph.pb --tensorflow_use_custom_operations_config <INSTALL_DIR>/deployment_tools/model_optimizer/extensions/front/tf/<MODEL_SUPPORT>_support.json --tensorflow_object_detection_api_pipeline_config <MODEL_FOLDER>/pipeline.config --reverse_input_channels
 ```
 More help at [OpenVINO Docs](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_tf_specific_Convert_Object_Detection_API_Models.html)
 
